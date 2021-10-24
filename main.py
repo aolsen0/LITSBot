@@ -2,12 +2,12 @@ from LITSclass import *
 from LITSnode import LITSnode
 import time
 
-model1 = torch.load('model1.pt')
-model2 = torch.load('model2.pt')
-model3 = torch.load('model3.pt')
-model4 = torch.load('model4.pt')
-model5 = torch.load('model5.pt')
-model6 = torch.load('model6.pt')
+model1 = torch.load('models/model1.pt')
+model2 = torch.load('models/model2.pt')
+model3 = torch.load('models/model3.pt')
+model4 = torch.load('models/model4.pt')
+model5 = torch.load('models/model5.pt')
+model6 = torch.load('models/model6.pt')
 
 models = [model1, model2, model3, model4, model5, model6]
 even = models[1::2]
